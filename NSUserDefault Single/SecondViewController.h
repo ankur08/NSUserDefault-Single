@@ -1,5 +1,5 @@
 //
-//  ViewController.h
+//  SecondViewController.h
 //  NSUserDefault Single
 //
 //  Created by ankur on 08/09/16.
@@ -8,9 +8,7 @@
 
 #import <UIKit/UIKit.h>
 
-@interface ViewController : UIViewController
-@property (strong, nonatomic) IBOutlet UILabel *lblOne;
-
+@interface SecondViewController : UIViewController
+@property (strong, nonatomic) IBOutlet UILabel *lblText;
 
 @end
-
